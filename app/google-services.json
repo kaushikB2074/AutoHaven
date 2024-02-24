@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "144725224063",
+    "project_id": "autohaven-ab404",
+    "storage_bucket": "autohaven-ab404.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144725224063:android:0ce339f15982417f7b2d4a",
+        "android_client_info": {
+          "package_name": "com.example.autohaven1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMl4tBjEPnKgyN4S0hKYvqUzJeg9J7B78"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

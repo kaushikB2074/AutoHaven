@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4C4C4B"
+    tools:context=".login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_600sdp"
+        android:background="#E6E2E2"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:layout_width="@dimen/_180sdp"
+            android:layout_height="@dimen/_180sdp"
+            android:layout_gravity="center"
+            android:src="@drawable/auto_yellow" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/abigdeal"
+            android:text="login"
+            android:textColor="#393737"
+            android:textSize="@dimen/_25ssp" />
+
+        <EditText
+            android:id="@+id/logemail"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/border"
+            android:drawableLeft="@drawable/_564504_email_letter_mail_message_icon"
+            android:drawablePadding="@dimen/_10sdp"
+            android:drawableTint="#9A9999"
+            android:fontFamily="@font/hypersuperregular"
+            android:hint="enter user email"
+            android:paddingStart="@dimen/_10sdp"
+            android:textColor="#9A9999"
+            android:textColorHint="#9A9999" />
+
+        <EditText
+            android:id="@+id/logpass"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/border"
+            android:drawableLeft="@drawable/_03178_lock_security_password_secure_unlock_icon"
+            android:drawablePadding="@dimen/_10sdp"
+            android:drawableTint="#9A9999"
+            android:fontFamily="@font/hypersuperregular"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:paddingStart="@dimen/_10sdp"
+            android:textColor="#9A9999"
+            android:textColorHint="#9A9999" />
+
+        <TextView
+            android:id="@+id/fp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_190sdp"
+            android:layout_marginTop="@dimen/_1sdp"
+            android:fontFamily="@font/hypersuperregular"
+            android:text="Forgot Password?"
+            android:textColor="#3F51B5" />
+
+        <Button
+            android:id="@+id/logbtn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginHorizontal="@dimen/_30sdp"
+            android:backgroundTint="#E1DE2C"
+            app:cornerRadius="@dimen/_10sdp"
+            app:strokeWidth="@dimen/_1sdp"
+            android:fontFamily="@font/abigdeal"
+            android:text="login"
+            android:textColor="#101720"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <ImageButton
+                android:id="@+id/google"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_70sdp"
+                android:backgroundTint="#E6E2E2"
+                android:src="@drawable/_993685_brand_brands_google_logo_logos_icon" />
+
+            <ImageButton
+                android:id="@+id/fb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:backgroundTint="#E6E2E2"
+                android:src="@drawable/_296499_fb_facebook_facebook_logo_icon" />
+
+            <ImageButton
+                android:id="@+id/twitter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:backgroundTint="#E6E2E2"
+                android:src="@drawable/_225183_app_logo_media_popular_social_icon" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="217dp"
+            android:layout_height="@dimen/_250sdp"
+            android:layout_marginTop="@dimen/_42sdp"
+            android:layout_marginRight="@dimen/_30sdp"
+            android:src="@drawable/car_auto" />
+
+    </LinearLayout>
+
+</LinearLayout>

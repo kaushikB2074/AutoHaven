@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4C4C4B"
+    tools:context=".forgot">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_600sdp"
+        android:background="#E6E2E2"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/backbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/_224367_previous_back_arrow_left_backward_icon"
+            android:backgroundTint="#E6E2E2"/>
+
+        <ImageView
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_70sdp"
+            android:src="@drawable/forgotpassword" />
+
+        <TextView
+            android:textColor="#454343"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/bebasneueregular"
+            android:text="Forgot password"
+            android:textSize="@dimen/_30ssp" />
+
+        <TextView
+            android:textColor="#9A9999"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Don't worry! it happens.Please enter the email associated with your account"
+            android:layout_marginHorizontal="@dimen/_50sdp"
+            android:textSize="@dimen/_10ssp"
+            />
+
+
+        <EditText
+            android:id="@+id/reemail"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/border"
+            android:drawableLeft="@drawable/_564504_email_letter_mail_message_icon"
+            android:drawablePadding="@dimen/_10sdp"
+            android:drawableTint="#9A9999"
+            android:fontFamily="@font/hypersuperregular"
+            android:hint="enter email"
+            android:inputType="textEmailAddress"
+            android:paddingStart="@dimen/_10sdp"
+            android:textColor="#9A9999"
+            android:textColorHint="#9A9999" />
+
+        <Button
+            android:id="@+id/fpbtn"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:backgroundTint="#E1DE2C"
+            android:fontFamily="@font/bebasneueregular"
+            android:text="Forgot password"
+            android:textColor="#101720"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold"
+            app:cornerRadius="@dimen/_10sdp"
+            app:strokeWidth="@dimen/_1sdp" />
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

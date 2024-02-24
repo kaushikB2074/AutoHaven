@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@drawable/_073942_home_icon"
+        />
+    <item android:id="@+id/nav_not"
+        android:title="Notification"
+        android:icon="@drawable/_044954_notification_filled_icon"
+        />
+    <item android:id="@+id/nav_pro"
+        android:title="Profile"
+        android:icon="@drawable/_09035_user_account_human_person_icon"
+        />
+
+</menu>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AutoHaven</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_goo_maps">gooMapsActivity</string>
+    <string name="google_maps_key">AIzaSyD08ssq1SwW3DwFnh3PdakP-uu-Ox5imxE</string>
+</resources>

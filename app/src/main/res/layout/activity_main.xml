@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#4C4C4B"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_600sdp"
+        android:background="#E6E2E2"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+
+        <ImageView
+            android:layout_width="@dimen/_265sdp"
+            android:layout_height="@dimen/_327sdp"
+            android:paddingStart="@dimen/_40sdp"
+            android:src="@drawable/auto_yellow" />
+
+        <Button
+            android:id="@+id/signupbtn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginHorizontal="@dimen/_30sdp"
+            android:backgroundTint="#E1DE2C"
+            android:fontFamily="@font/hypersuperregular"
+            android:text="signup"
+            app:cornerRadius="@dimen/_10sdp"
+            app:strokeWidth="@dimen/_1sdp"
+            android:textColor="#323030"
+            android:textSize="@dimen/_20ssp" />
+
+        <Button
+            android:id="@+id/loginbtn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginHorizontal="@dimen/_30sdp"
+            android:backgroundTint="#E1DE2C"
+            android:fontFamily="@font/hypersuperregular"
+            android:text="login"
+            android:layout_marginTop="@dimen/_10sdp"
+            app:strokeWidth="@dimen/_1sdp"
+            app:cornerRadius="@dimen/_10sdp"
+            android:textColor="#323030"
+            android:textSize="@dimen/_20ssp" />
+
+        <ImageView
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="@dimen/_250sdp"
+            android:layout_marginLeft="@dimen/_100sdp"
+            android:layout_marginTop="@dimen/_60sdp"
+            android:src="@drawable/car_auto" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
